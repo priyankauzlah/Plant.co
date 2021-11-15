@@ -10825,6 +10825,7 @@ body {
 
 .page-content {
   margin-top: 100px;
+  background: #F6FFFA;
 }
 
 footer {
@@ -11198,7 +11199,7 @@ footer p {
 }
 
 .component-categories {
-  background: #FFEDD8;
+  background: #29A867;
   border-radius: 8px;
   padding: 30px 30px 10px 30px;
   margin-bottom: 20px;
@@ -11215,7 +11216,7 @@ footer p {
 .component-categories .categories-text {
   font-size: 18px;
   text-align: center;
-  color: #0c0d36;
+  color: #ffffff;
   font-weight: normal;
   margin-top: 12px;
 }
@@ -11263,7 +11264,7 @@ footer p {
 .component-products .products-price {
   font-weight: 500;
   font-size: 16px;
-  color: #ff7158;
+  color: #BF7824;
 }
 
 .store-breadcrumbs .breadcrumb {
