@@ -2863,22 +2863,22 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #BF7824;
-  border-color: #a16419;
+  background-color: #28a745;
+  border-color: #28a745;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #aa6f26;
-  border-color: #cc7c19;
+  background-color: #218838;
+  border-color: #1e7e34;
 }
 
 .btn-success:focus, .btn-success.focus {
   color: #fff;
-  background-color: #b97118;
-  border-color: #9e5a06;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(122, 18, 18, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(122, 18, 18, 0.5);
+  background-color: #218838;
+  border-color: #1e7e34;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 
 .btn-success.disabled, .btn-success:disabled {

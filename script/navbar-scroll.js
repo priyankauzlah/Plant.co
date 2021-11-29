@@ -1,4 +1,3 @@
-//TODO 5 navigation bar script
 $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar-fixed-top");
