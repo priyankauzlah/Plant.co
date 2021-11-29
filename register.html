@@ -80,11 +80,12 @@
                 </div>
                 <div class="form-group">
                   <label>Email</label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     class="form-control is-invalid"
+                    aria-describedby="emailHelp"
                     v-model="email"
-                    />
+                  />
                 </div>
                 <div class="form-group">
                   <label>Password</label>
@@ -95,27 +96,38 @@
                   <p class="text-muted">
                     Do you wanna add a new store ?
                   </p>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio"
-                    class="custom-control-input"
-                    name="is_store_open"
-                    id="openStoreTrue"
-                    v-model="is_store_open"
-                    :value="true"/>
-                    <label 
-                    for="openStoreTrue" 
-                    class="custom-control-label">Yes, for sure</label>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      type="radio"
+                      name="is_store_open"
+                      id="openStoreTrue"
+                      v-model="is_store_open"
+                      :value="true"
+                    />
+                    <label class="custom-control-label" for="openStoreTrue"
+                      >Yes, for sure</label
+                    >
                   </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio"
-                    class="custom-control-input"
-                    name="is_store_open"
-                    id="openStoreFalse"
-                    v-model="is_store_open"
-                    :value="false"/>
-                    <label 
-                    for="openStoreTrue" 
-                    class="custom-control-label">No, thank you</label>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      class="custom-control-input"
+                      type="radio"
+                      name="is_store_open"
+                      id="openStoreFalse"
+                      v-model="is_store_open"
+                      :value="false"
+                    />
+                    <label
+                      makasih
+                      class="custom-control-label"
+                      for="openStoreFalse"
+                      >No, thank you</label
+                    >
                   </div>
                 </div>
                 <div class="form-group" v-if="is_store_open">
@@ -135,19 +147,19 @@
                     <option value="" disabled>Kids</option>
                   </select>
                 </div>
-                <a href="/index.html" class="btn btn-success btn-block mt-4">
+                <button type="submit" class="btn btn-success btn-block mt-4">
                   Sign Up Now
-                </a>
-                <a href="/login.html" class="btn btn-signup btn-block mt-2">
+                </button>
+                <button type="submit" class="btn btn-signup btn-block mt-2">
                   Back to Sign In
-                </a>
+                </button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
- 
+    
     <footer>
       <div class="container">
         <div class="row">

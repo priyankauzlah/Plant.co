@@ -2863,22 +2863,22 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #BF7824;
+  border-color: #a16419;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #aa6f26;
+  border-color: #cc7c19;
 }
 
 .btn-success:focus, .btn-success.focus {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  background-color: #b97118;
+  border-color: #9e5a06;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(122, 18, 18, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(122, 18, 18, 0.5);
 }
 
 .btn-success.disabled, .btn-success:disabled {
@@ -10908,7 +10908,7 @@ footer p {
 }
 
 .page-details .store-gallery .thumbnail-image:hover, .page-details .store-gallery .thumbnail-image.active {
-  border: 2px solid #ff7158;
+  border: 2px solid #29A867;
 }
 
 .page-details .store-heading {
@@ -10935,7 +10935,7 @@ footer p {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  color: #ff7158;
+  color: #29A867;
   margin-bottom: 10px;
 }
 
